@@ -13,6 +13,9 @@ Validate user input and verify file existence before executing main script logic
 * **`>`**: Overwrite, sends command output into a file
 * **`>>`**: Adds command output to the bottom of a file without deleting existing lines
 * **`<< 'EOF'`**: Feeds multiple lines of text into a command
+* **`apropos`**: Helps find commands based on description such as apropos remove files
+* **`Whatis`**: Gives a brief description of the command ie whatis ls
+* **`man`**: `**: Man followed by a command such as man ls takes me to the documentation for that command
 
 ## Core Mechanics & Flags Used
 * **`$1`**: Captures the first positional argument passed at runtime.
